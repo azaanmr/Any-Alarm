@@ -1,5 +1,5 @@
 # Privacy Policy for Any Alarm
-**Effective Date:** February 23, 2026
+**Effective Date:** March 18, 2026
 
 ## 1. Introduction
 Welcome to Any Alarm. This Privacy Policy outlines how your information is handled when you use our mobile application ("the App"). We are committed to protecting your privacy and ensuring that your data is secure.
@@ -8,6 +8,7 @@ Welcome to Any Alarm. This Privacy Policy outlines how your information is handl
 Any Alarm is designed to operate locally on your device. We do not collect, transmit, or store your personal data on external servers.
 
 * **Camera Access:** The App requests access to your device's camera strictly for the "QR Code Alarm" feature. The camera is used solely to scan barcodes or QR codes in real-time to dismiss an active alarm. No images, video, or scan data are ever recorded, saved, or transmitted off your device. All processing happens locally.
+* **Physical Activity / Step Counter:** The App requests access to your physical activity and step data (ACTIVITY_RECOGNITION) exclusively for the "Step Counter" alarm challenge. This data is used in real-time solely to verify you are walking to dismiss an active alarm. We do not track your long-term fitness, store your step history, transmit health data to external servers, or share it with third parties. All step processing happens locally on your device.
 * **Local Storage:** Your alarm configurations (times, intervals, math quiz settings, and registered QR codes) are saved securely in your device's local database. This data is not synced to the cloud or shared with anyone.
 * **Alarms and Notifications:** To ensure alarms fire reliably, the App utilizes Android's exact alarm scheduling and background/foreground services. This requires the app to wake your device and display full-screen notifications. This process does not collect personal information.
 
